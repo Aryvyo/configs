@@ -1,0 +1,19 @@
+[[themes]]
+name = "luhtheme"
+[themes.palette]
+background = "#0D0D11"
+foreground = "#C5C8C6"
+black = "#1a0b1f"
+magenta= "#6a3baf"
+bright_magenta = "#6b3cb0"
+[themes.component_style]
+block_title = {fg = "Magenta"}
+border = { fg = "Magenta" }
+playback_track = {fg = "Magenta", modifiers=["Bold"]}
+playback_artists = {fg = "Magenta", modifiers=["Bold"]}
+playback_album = {fg = "Magenta"}
+playback_progress_bar = { fg = "Magenta", bg = "Black"}
+page_desc = {fg="Magenta",modifiers = ["Bold"]}
+playlist_desc = { fg = "BrightMagenta", modifiers = ["Italic","Dim"]}
+current_playing = {fg = "Magenta", modifiers=["Bold"]}
+table_header = { fg= "BrightMagenta" }
